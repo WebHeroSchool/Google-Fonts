@@ -1,0 +1,51 @@
+.header {
+  color: blue;
+  white-space: pre-line;
+  text-decoration-line: underline;
+  font-stretch: extra-expanded;
+}
+
+h1 {
+  font-size: 250%;
+}
+.ingredients-list__item, .recipe-list__item
+{
+ list-style-type: decimal;
+}
+
+.ingredients-list__item ~ li {
+  text-decoration: underline;
+  flex-direction: initial;
+}
+.ingredients__button {
+  resize: both;
+}
+#recipe {
+  font-style: oblique;
+}
+
+button[style] {
+  float: right;
+}
+
+.footer__contact {
+  text-indent: 40px;
+}
+
+.footer__subtitle + .footer__contact {
+  letter-spacing: 5px;
+}
+
+.recipe-list > li {
+  font-weight: bold;
+  hyphens: auto;
+}
+
+.header button {
+  outline: 3px solid #FF8C00;
+  border-color: black;
+  }
+
+.footer-button {
+  margin-top: 3px;
+}
